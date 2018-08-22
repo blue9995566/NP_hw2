@@ -531,8 +531,7 @@ static void run(int next_count,int me){
 						cut++;
 					}
 					i++;
-				}
-
+				}usleep(200);
 				// printf("from%s\n",clients[from_who-1].name);
 			}
 		}
